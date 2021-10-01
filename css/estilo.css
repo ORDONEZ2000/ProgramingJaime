@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+}
+
+/*Estilos Header*/
+header{
+    background-image: url("../img/ElChiquito.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 1;
+    top: 0;
+}
+
+.titulo{
+    margin-left: 20px;
+}
+
+.titulo h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo h2 a:hover{
+    color: green;
+}
+
+.navi ul{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.navi ul li{
+    margin: 0 15px;
+    list-style: none;
+}
+
+.navi ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navi ul li a:hover{
+    color: green;
+}
+
+.tituloCen{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0 -65px;
+    text-align: center;
+}
+
+.tituloCen h2{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.tituloCen h4{
+    color: white;
+}
+
+
+/*Estilos Main*/
+.about{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about h3{
+    margin-bottom: 80px;
+}
+
+.about p{
+    width: 600px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.portfolio{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.portfolio h3{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.port-imag{
+    display: grid;/*grilla*/
+    grid-template-columns: repeat(2,5fr);
+    gap: 10px;/*separacion*/
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+}
+
+.fotos img:hover{
+    opacity: 0.5;
+}
+
+.clientes{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.clientes h3{
+    margin-bottom: 80px;
+}
+
+.clientes p{
+    width: 600px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.contacto{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contacto h3{
+    margin-bottom: 80px;
+}
+
+.formuCont h2{
+    margin-bottom: 20px;
+}
+
+.gmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formu{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 82px;
+    
+}
+
+.formu label{
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    font-style: italic; /*Para poner en diagonal el label*/
+}
+
+.formu input{
+    width: 80%;
+    margin: 0 auto;
+    color: black;
+    background: rgb(219, 216, 216);
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background: white;
+}
+
+/*
+.abajo{
+    margin-bottom: 20px;
+}
+
+.abajo a{
+    text-decoration: none;
+}
+
+.abajo p{
+    margin-top: 10px;
+}
+
+.redes{
+    display: flex;
+    text-align: center;
+}
+
+.red{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+}
+
+.copy{
+    text-align: center;
+}*/
+
+.red{
+    width: 18px;
+    height: 18px;
+    margin: 0 10px;
+}
